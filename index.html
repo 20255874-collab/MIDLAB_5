@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta charset ="viewport" content ="width=device-width, initial-scale=1.0">
+    <title>Weekly Diet & Exercise Tracker</title>
+    <style>
+        body{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin: 0; 
+        padding: 0;
+    }
+    table{
+        border-collapse: collapse;
+        width: 80%;
+        margin: 0 auto;
+    }
+    td{
+        padding: 80px;
+        vertical-align: top;
+    }
+    fieldset{
+        margin-bottom: 30px; 
+    }
+    label {
+        display: inline block;
+        width: 50px
+    }
+    input, select, textarea{
+        margin-top: 10px;
+    }
+    iframe{
+        width:550px;
+        height: 550px;
+    }
+    </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td colspan="2" style="text-align: center; background-color: rgb(75, 84, 87); padding: 20px;">
+                    <h1>Weekly Diet & Exercise Tracker</h1>
+                    <p>Monitor your meals and workouts for a healthier lifesytle.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style ="width: 50%;">
+                    <form action ="#" method="post">
+                        <fieldset>
+                            <legend>Personal  info</legend>
+                            <label for ="name">Name:</label>
+                            <input type ="text" id="Name" name="Name" required><br>
+
+                            <label for ="Age">Age:</label>
+                            <input type ="number" id="Age" name="Age" required><br>
+
+                            <label for ="Gender">Gender:</label>
+                            <select type ="Gender"name ="gender"required>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>Diet Tracking (Mon-Fri)</legend>
+                            <label for ="Monday">Monday:</label>
+                            <input type ="number" id= "Monday"name ="Monday"required><br>
+
+                            <label for ="Tuseday">Tuseday:</label>
+                            <input type ="number" id= "Tuseday"name ="Tuseday"required><br>
+
+                            <label for ="Wednesday">Wednesday:</label>
+                            <input type ="Wednesday" id= "Wednesday"name ="Wednesday"required><br>
+
+                            <label for ="Thursday">Thursday:</label>
+                            <input type ="number" id= "Thursday"name ="Thursday"required><br>
+
+                            <label for ="Friday">Friday:</label>
+                            <input type ="number" id= "Friday"name ="Friday"required><br>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>Exercise (Mon-Fri)</legend>
+                            <label for ="Monday">Monday:</label>
+                            <input type ="number" id= "Monday"name ="Monday"required><br>
+
+                            <label for ="Tuseday">Tuseday:</label>
+                            <input type ="number" id= "Tuseday"name ="Tuseday"required><br>
+
+                            <label for ="Wednesday">Wednesday:</label>
+                            <input type ="number" id= "Wednesday"name ="Wednesday"required><br>
+
+                            <label for ="Thursday">Thursday:</label>
+                            <input type ="number" id= "Thursday"name ="Thursday"required><br>
+
+                            <label for ="Friday">Friday:</label>
+                            <input type ="number" id= "Friday"name ="Friday"required><br>
+                        </fieldset>
+
+
+                            <input type="submit" value="Submit">
+
+
+                    </form>
+                </td>
+
+                <td style="width: 85%;">
+                    <iframe src="https://www.youtube.com/embed/Cbs6k8VUuNI"></iframe>
+
+
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>  
+    
